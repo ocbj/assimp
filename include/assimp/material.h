@@ -185,7 +185,7 @@ enum aiTextureMapping {
  *  and the artists working on models have to conform to this specification,
  *  regardless which 3D tool they're using.
  */
-enum aiTextureType {
+enum aiTextureType : int {
     /** Dummy value.
      *
      *  No texture, but the value to be used as 'texture semantic'
